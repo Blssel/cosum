@@ -28,6 +28,11 @@ The Co-sum dataset serves as a benchmark to validate *video co-summarization* te
 ```
 **Contact:** Please send comments to Wen-Sheng Chu (wschu@cmu.edu)
 
+#Shot Indices
+
+The shot indices used in the paper can be found in the `shots/` directory.
+Note that the indices can be post-processed into smaller shots to avoid too lengthy shots (see Sec 3.1 in paper).
+
 
 #Video URLs
 
@@ -79,19 +84,19 @@ The Co-sum dataset serves as a benchmark to validate *video co-summarization* te
 -----------------------------
 **06: MLB**
 
-[![mlb1](missing link)](http://www.youtube.com/watch?v=Zw2CxfFaiRI)
-[![mlb2](missing link)](http://www.youtube.com/watch?v=Zw2CxfFaiRI)
+[![mlb1](http://img.youtube.com/vi/ghtNQgSdSjU/0.jpg)](http://www.youtube.com/watch?v=ghtNQgSdSjU)
+[![mlb2](http://img.youtube.com/vi/40v3Wxla_YQ/0.jpg)](http://www.youtube.com/watch?v=40v3Wxla_YQ)
 [![mlb3](http://img.youtube.com/vi/a3lUwwZH1-s/0.jpg)](http://www.youtube.com/watch?v=a3lUwwZH1-s)
 [![mlb4](http://img.youtube.com/vi/40ZbleWCCC8/0.jpg)](http://www.youtube.com/watch?v=40ZbleWCCC8)
 [![mlb5](http://img.youtube.com/vi/T3mWQF7CHpY/0.jpg)](http://www.youtube.com/watch?v=T3mWQF7CHpY)
-[![mlb6](missing link)](http://www.youtube.com/watch?v=Zw2CxfFaiRI)
+[![mlb6](http://img.youtube.com/vi/u-IcI51WxTA/0.jpg)](http://www.youtube.com/watch?v=u-IcI51WxTA)
 
 -----------------------------
 **07: NFL**
 
 [![nfl1](http://img.youtube.com/vi/mBEb4LOAJ1s/0.jpg)](http://www.youtube.com/watch?v=mBEb4LOAJ1s)
 [![nfl2](http://img.youtube.com/vi/8OeNn4Zu6rI/0.jpg)](http://www.youtube.com/watch?v=8OeNn4Zu6rI)
-[![nfl3](missing link)](http://www.youtube.com/watch?v=a3lUwwZH1-s)
+[![nfl3](http://img.youtube.com/vi/sdmu-WVZe70/0.jpg)](http://www.youtube.com/watch?v=sdmu-WVZe70)
 
 -----------------------------
 **08: Notre dame cathedral**
@@ -100,7 +105,7 @@ The Co-sum dataset serves as a benchmark to validate *video co-summarization* te
 [![notre2](http://img.youtube.com/vi/3JrzPSNmT8E/0.jpg)](http://www.youtube.com/watch?v=3JrzPSNmT8E)
 [![notre3](http://img.youtube.com/vi/Dzqyip0pbw0/0.jpg)](http://www.youtube.com/watch?v=Dzqyip0pbw0)
 [![notre4](http://img.youtube.com/vi/fpWwESIbgqA/0.jpg)](http://www.youtube.com/watch?v=fpWwESIbgqA)
-[![notre5](missing link)](http://www.youtube.com/watch?v=mBEb4LOAJ1s)
+[![notre5](http://img.youtube.com/vi/wU6TfFTxQDE/0.jpg)](http://www.youtube.com/watch?v=wU6TfFTxQDE)
 
 -----------------------------
 **09: Statue of liberty**
