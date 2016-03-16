@@ -1,23 +1,28 @@
+#Preview
+
+The 10 categories collected in this dataset:
+
+![](teaser/im_dataset.png)
+
 #Descrptions
 
-The Co-sum dataset serves as a benchmark to validate *video co-summarization* techniques, where the goal is to create video summaries given a video collection of the same topic. The dataset is collected from YouTube with 10 categories, in total 51 videos of 147m40s. We release both the URLs, proprocessed shot indices and annotation for reproducibility of our results. This dataset has been evaluated on two tasks:
+This Co-Sum dataset serves as a benchmark to validate *video co-summarization* techniques, where the goal is to create video summaries given a video collection of the same topic. The dataset is collected from YouTube using 10 queries, in total 51 videos of 147m40s. We release the video URLs, proprocessed shot indices and annotations for reproducibility of our results. 
 
-- **Adaptive video summary:** Create summaries adaptive to a query string
-- **Concept visualization:** Generate visual (video) concepts from a query string
+This dataset has been evaluated on two tasks:
+- **Adaptive video summarization:** Create summaries for each video adaptive to a query string
+- **Concept visualization:** Generate visual (video) concepts from a query string (eg, "*surf*" and "*bike polo*")
+![](teaser/surf.gif)
+![](teaser/bike.gif)
 
-
-#Info
-
-**Last updated:** Dec 12, 2015
-
-**Links:** [project page](http://ochoa.pc.cs.cmu.edu/wschu/project_cosum.html),
-[evaluation page](http://ochoa.pc.cs.cmu.edu/wschu/cosum/),
-[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Chu_Video_Co-Summarization_Video_2015_CVPR_paper.pdf),
-[poster](http://ochoa.pc.cs.cmu.edu/wschu/papers/doc/cvpr15_cosum_poster_low.pdf) (14M),
-[slides](http://ochoa.pc.cs.cmu.edu/wschu/papers/doc/cvpr15_cosum_slides_low.pdf) (5.6M),
-[supp](http://ochoa.pc.cs.cmu.edu/wschu/papers/doc/cvpr15-cosum-supp.pdf) (12M).
-
-**Citation:** Please cite the following paper if you use this dataset in a publication:
+More info:
+- **Links:** [project page](http://ochoa.pc.cs.cmu.edu/wschu/project_cosum.html) | 
+[evaluation page](http://ochoa.pc.cs.cmu.edu/wschu/cosum/) | 
+[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Chu_Video_Co-Summarization_Video_2015_CVPR_paper.pdf) (2.3M) | 
+[poster](http://ochoa.pc.cs.cmu.edu/wschu/papers/doc/cvpr15_cosum_poster_low.pdf) (14M) | 
+[slides](http://ochoa.pc.cs.cmu.edu/wschu/papers/doc/cvpr15_cosum_slides_low.pdf) (5.6M) | 
+[supp](http://ochoa.pc.cs.cmu.edu/wschu/papers/doc/cvpr15-cosum-supp.pdf) (12M)
+- **Contact:** Please send comments to Wen-Sheng Chu (wschu@cmu.edu)
+- **Citation:** Please cite the following paper if you use this dataset in a publication:
 ```
 @inproceedings{chu2015video,
     title={Video co-summarization: Video summarization by visual co-occurrence},
@@ -26,7 +31,6 @@ The Co-sum dataset serves as a benchmark to validate *video co-summarization* te
     year={2015}
 }
 ```
-**Contact:** Please send comments to Wen-Sheng Chu (wschu@cmu.edu)
 
 #Shot Indices
 
