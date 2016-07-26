@@ -6,4 +6,4 @@ This folder contains the shot indices for the videos complied in [the video co-s
 Description
 -----------
 
-Each video is pre-segmented using the approach described in **Sec 3.1** of the paper.  The shot indices for each video is described as a txt-file that contains `(nShot+1)` lines.  The `n`-th shot maps the frames of the numbers of the `n`-th line and the `(n+1)-th line of a corresponding txt file.
+Each video is pre-segmented using the approach described in **Sec 3.1** of the paper.  Suppose we have `N` shots for a particular video.  The shot indices are listed in a txt-file that contains `(N+1)` lines.  That is, the `n`-th shot spans between the frame numbers of the `n`-th line and the `(n+1)`-th line.
