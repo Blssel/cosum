@@ -1,6 +1,6 @@
 #Preview
 
-The 10 categories collected in this dataset:
+The 10 categories collected in this dataset. See discovery demo [here](http://ochoa.pc.cs.cmu.edu/wschu/project_cosum.html).
 
 ![](teaser/im_dataset.png)
 
